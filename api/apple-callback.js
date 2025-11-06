@@ -9,7 +9,7 @@ export default async function handler(req, res) {
     if (!code) return res.status(400).json({ error: 'Missing authorization code' });
 
     // <-- UTILISE CETTE URL (ta page mobile preview) -->
-    const bubbleCallbackUrl = 'https://tirelire-16065.bubbleapps.io/version-test/api/1.1/mobile/preview?debug_mode=true&preview_view=confirmation_view';
+    const bubbleCallbackUrl = 'https://tirelire-16065.bubbleapps.io/api/1.1/mobile/preview_view=confirmation_view';
 
     const params = new URLSearchParams({
       code: code,
