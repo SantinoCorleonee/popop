@@ -16,7 +16,7 @@ export default async function handler(req, res) {
     }
 
     // Construire l'URL de redirection vers Bubble
-    const bubbleCallbackUrl = 'https://tirelire-16065.bubbleapps.io/';
+    const bubbleCallbackUrl = 'https://tirelire-16065.bubbleapps.io/version-test/apple-callback';
     
     // Créer les paramètres à envoyer à Bubble
     const params = new URLSearchParams({
