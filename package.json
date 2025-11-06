@@ -1,0 +1,10 @@
+{
+  "name": "popop",
+  "version": "1.0.0",
+  "description":"JWT for apple sign in",
+  "main":"api/generate-jwt.js",
+  "dependencies": {
+    "jsonwebtoken": "^9.0.2"
+  }
+}
+
